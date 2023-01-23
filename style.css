@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header h2{
+    text-align: center;
+    padding: 1%;
+}
+
+.train-input{
+    max-width: 980px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.train-input input{
+    width: 40%;
+    border: 3px solid rgb(185, 49, 72);
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-indent: 2%;
+}
+
+.train-input input::placeholder{
+    color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-image: url("https://www.freeiconspng.com/uploads/calendar-icon-png-4.png");
+    font-size: 20px;
+}
+
+.train-input button{
+    width: 20%;
+    background-color: yellowgreen;
+    color: White;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.train-detail{
+    max-width: 980px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.train-name{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 54, 54);
+    color: white;
+    padding: 1%;
+}
+
+.show-time{
+    max-width: 980px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.stoppage{
+    background-color: black;
+    color: white;
+    padding: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(81, 7, 7);
+}
+
+.station-name{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.time-table{
+    width: 45%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.arr{
+    color: green;
+    border-right: 5px solid blue;
+}
+
+.dep{
+    color: red;
+    border-left: 5px solid blue;
+}
